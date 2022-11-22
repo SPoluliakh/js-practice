@@ -1,0 +1,14 @@
+.wrap {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-top: 0px;
+}
+
+.main {
+  height: 580px;
+  overflow-y: auto;
+}

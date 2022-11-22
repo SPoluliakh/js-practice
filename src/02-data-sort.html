@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data-sort</title>
+    <link rel="stylesheet" href="sass/index.css" />
+  </head>
+  <body>
+    <p><a href="index.html">Go back</a></p>
+
+    <div class="wrap">
+      <div>
+        <h1 class="title">Data list</h1>
+        <ul class="main" data-main></ul>
+      </div>
+      <div>
+        <label for="filter_1">Filter by name</label>
+        <input
+          type="text"
+          id="filter_1"
+          placeholder="enter name"
+          data-filter_1
+        />
+        <ul data-list_1></ul>
+      </div>
+      <div>
+        <label for="filter_2">Filter by status</label>
+        <input
+          type="text"
+          id="filter_2"
+          placeholder="enter status"
+          data-filter_2
+        />
+        <ul data-list_2></ul>
+      </div>
+      <div>
+        <label for="filter_3">Filter by mail</label>
+        <input
+          type="text"
+          id="filter_3"
+          placeholder="enter mail"
+          data-filter_3
+        />
+        <ul data-list_3></ul>
+      </div>
+    </div>
+
+    <script src="js/02/02-data-sort.js" type="module"></script>
+  </body>
+</html>

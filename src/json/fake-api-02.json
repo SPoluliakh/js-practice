@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "name": "Mike",
+      "mail": "mike1@mail.com",
+      "rating": 20,
+      "status": false
+    },
+    {
+      "name": "Greg",
+      "mail": "greg2@mail.com",
+      "rating": 14,
+      "status": false
+    },
+    {
+      "name": "Johnn",
+      "mail": "johnn3@mail.com",
+      "rating": 25,
+      "status": true
+    },
+    {
+      "name": "Mango",
+      "mail": "mango4@mail.com",
+      "rating": 27,
+      "status": true
+    },
+    {
+      "name": "Ajax",
+      "mail": "ajax5@mail.com",
+      "rating": 15,
+      "status": false
+    },
+    {
+      "name": "Kiwi",
+      "mail": "kiwi6@mail.com",
+      "rating": 3,
+      "status": false
+    },
+    {
+      "name": "Pizza",
+      "mail": "pizza7@mail.com",
+      "rating": 7,
+      "status": true
+    }
+  ]
+}
