@@ -1,5 +1,5 @@
-import json from '../../json/fake-api-02.json' assert { type: 'json' };
-import { Filter } from './class.js';
+import json from '../../json/fake-api-02.json';
+import { Filter } from './class';
 import { mainMarkup } from './main-murkup.js';
 import {
   filter_1El,

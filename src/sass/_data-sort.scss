@@ -12,3 +12,18 @@
   height: 580px;
   overflow-y: auto;
 }
+
+.list:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.info {
+  margin: 0px;
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+.search-info {
+  height: 580px;
+  overflow-y: auto;
+}

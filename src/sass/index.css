@@ -11,4 +11,28 @@
 .main {
   height: 580px;
   overflow-y: auto;
+}
+
+.list:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.info {
+  margin: 0px;
+}
+.info:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.search-info {
+  height: 580px;
+  overflow-y: auto;
+}
+
+.converter-wrap {
+  display: flex;
+}
+
+.iquel {
+  margin: 0 20px;
 }/*# sourceMappingURL=index.css.map */
